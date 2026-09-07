@@ -4,14 +4,6 @@
 
 # Pushing Forward Pareto Frontiers of Proactive Agents with Behavioral Agentic Optimization
 
-Official code for **BAO** (Behavioral Agentic Optimization), an agentic-RL framework that
-trains proactive LLM agents to balance **task performance** against **user engagement**.
-BAO enhances and regularizes inter-turn behaviors (retrospective reasoning and prospective
-planning) so agents gather information efficiently without overusing user interaction,
-pushing forward the Pareto frontier between the two objectives.
-
-<!-- ![Pipeline](assets/teaser-BAO.png) -->
-
 ## Overview
 
 - `verl/` — RL training framework (built on [VERL](https://github.com/volcengine/verl)), with multi-turn GRPO and behavior-regularized reward shaping.
